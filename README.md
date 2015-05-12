@@ -19,7 +19,7 @@ var prependify = require('prependify');
 var b = browserify();
 b.add('/path/to/your/file');
 b.plugin(prependify, 'some text');
-b.bundle().pipe(somewhere)
+b.bundle().pipe(somewhere);
 ```
 
 

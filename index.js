@@ -1,1 +1,1 @@
-module.exports = require('./lib/prependify');
+module.exports = require('./lib/prependify')
