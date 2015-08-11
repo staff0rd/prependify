@@ -24,6 +24,6 @@ b.bundle().pipe(somewhere);
 
 
 [license-url]: http://zedshaw.com/archive/why-i-algpl/
-[license-image]: https://img.shields.io/badge/license-AGPLv3-663366.svg
+[license-image]: http://img.shields.io/:license-mit-blue.svg
 [music-url]: http://somafm.com/defcon/
 [music-image]: https://img.shields.io/badge/music-SomaFM-FF0000.svg
