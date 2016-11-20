@@ -1,6 +1,6 @@
 # prependify
 
-*Prepend your Browserify generated bundle-file with any given text.*
+> Prepend your Browserify generated bundle with any given text.
 
 ## Install
 

@@ -1,7 +1,7 @@
 {
   "name": "prependify",
   "version": "1.2.1",
-  "description": "Prepend your browserify generated bundle-file with any given text.",
+  "description": "Prepend your browserify generated bundle with any given text.",
   "main": "index.js",
   "scripts": {
     "test": "standard"
