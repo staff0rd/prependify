@@ -1,10 +1,10 @@
 {
   "name": "prependify",
   "version": "1.2.0",
-  "description": "Prepend text to your browserify chain.",
+  "description": "Prepend your browserify generated bundle-file with any given text.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "author": "Per Guth <mail@perguth.de>",
   "license": "MIT",
@@ -23,7 +23,10 @@
     "prepend",
     "text",
     "manipulation",
-    "browserify-plugins",
+    "plugins",
     "browserify"
-  ]
+  ],
+  "devDependencies": {
+    "standard": "^8.5.0"
+  }
 }

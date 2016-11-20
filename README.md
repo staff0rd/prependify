@@ -1,29 +1,29 @@
 # prependify
 
-*Prepend your browserify generated bundle-file with any given text.*
-
-[![License][license-image]][license-url]
-[![Music][music-image]][music-url]
-
+*Prepend your Browserify generated bundle-file with any given text.*
 
 ## Install
+
 ```sh
 npm install prependify
 ```
 
 ## Usage
-```js
-var browserify = require('browserify');
-var prependify = require('prependify');
 
-var b = browserify();
-b.add('/path/to/your/file');
-b.plugin(prependify, 'some text');
-b.bundle().pipe(somewhere);
+```js
+var browserify = require('browserify')
+var prependify = require('prependify')
+
+var b = browserify()
+b.add('/path/to/your/file')
+b.plugin(prependify, 'some text')
+b.bundle().pipe(somewhere)
 ```
 
+## Related
 
-[license-url]: http://zedshaw.com/archive/why-i-algpl/
-[license-image]: http://img.shields.io/:license-MIT-blue.svg
-[music-url]: http://somafm.com/defcon/
-[music-image]: https://img.shields.io/badge/music-SomaFM-FF0000.svg
+- [licensify](https://github.com/twada/licensify): Browserify plugin to prepend license header to your bundle
+
+## License
+
+MIT
