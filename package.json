@@ -1,6 +1,6 @@
 {
   "name": "prependify",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Prepend your browserify generated bundle-file with any given text.",
   "main": "index.js",
   "scripts": {
