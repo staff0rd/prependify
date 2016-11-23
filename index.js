@@ -12,7 +12,7 @@ function prependify (b, text) {
     b.pipeline.get('wrap').push(
       through.obj(function (buf, _, next) {
         if (first) {
-          this.push(text)
+          this.push(text + "\n");
           first = false
         }
         this.push(buf)
