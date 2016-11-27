@@ -3,8 +3,8 @@ var through = require('through2')
 module.exports = prependify
 
 function prependify (b, text) {
-  if (typeof(text) === 'object') {
-    text = text[Object.keys(text)[0]].join(' ');
+  if (typeof (text) === 'object') {
+    text = text[Object.keys(text)[0]].join(' ')
   }
 
   b.on('bundle', function () {
